@@ -1,8 +1,8 @@
-#NWAlignment
+# NWAlignment
 
 This tool is designed to perform pairwise sequence alignments based on the [Needleman-Wunsch algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm). The current program version uses a simple scoring system, where gaps and mismatches have a score of -1, matches are defined as +1.
 
-###Requirements:
+### Requirements:
 * [cmake](https://cmake.org/) >= Version 3.10
 * C++20 standard
 
@@ -19,7 +19,7 @@ This tool is designed to perform pairwise sequence alignments based on the [Need
 `make`
 6. Run the program as shown below
 
-###Usage:
+### Usage:
 Allowed parameters:
 
 Short | Long     | Type   | Description
@@ -38,7 +38,7 @@ Note:
   `./nealign --help`
 
 
-###Note:
+### Note:
 * This tool comes without any warranty
 * This tool is updated infrequently
 * Have fun using it
