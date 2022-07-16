@@ -5,7 +5,7 @@ project(NWAlignment)
 
 # Optionen an den Compiler
 set(CXX_FLAGS
-        -std=c++20               # Verwende den C++14 Standard
+        -std=c++14               # Verwende den C++14 Standard
         -pedantic                # Achte auf genauere Einhaltung des Standards
         -Wall                    # Aktiviere alle Warnungen
         )
